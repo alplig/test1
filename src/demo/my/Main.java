@@ -2,7 +2,7 @@ package demo.my;
 
 
 import java.util.Locale;
-
+/* коментарий для коментария */
 public class Main {
 
     public static void main(String[] args) {
