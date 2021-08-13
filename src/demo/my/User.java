@@ -22,7 +22,7 @@ public class User {
         if (!Objects.equals(name_eq, "")){ // было: name_eq!=""
         this.name_eq = name_eq;
         } else{
-            System.out.println("Пустой ввод, будет отфильтровано значением по умолчанию \"simple\"");
+            System.out.println("Пустой ввод, будет отфильтровано значением по умолчанию: \""+this.name_eq+"\"");
         }
     }
 }
