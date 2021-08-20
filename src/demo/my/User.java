@@ -4,10 +4,11 @@ package demo.my;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Stream;
 
 
 public class User {
-    private final List<String> name = Arrays.asList("Имя1","simple Имя2","Имя3 simple","simpleИмя4", "Имя5simple", "ИмЯ6SiMpLe", "Фильтр1","Фильтр2");
+    private  List<String> name = Arrays.asList("Имя1","simple Имя2","Имя3 simple","simpleИмя4", "Имя5simple", "ИмЯ6SiMpLe", "Фильтр1","Фильтр2");
     private  String name_eq = "simple"; //переменная для сравнения по умолчанию
 
     public List<String> getName() {
